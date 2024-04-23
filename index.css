@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    background-image: url("https://i.artfile.ru/1920x1080_1371007_[www.ArtFile.ru].jpg");
+    text-align: center;
+    color: white;
+    font-family: "Mulish", sans-serif;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+header {
+    font-size: x-large;
+    cursor: help;
+    transition: 1s;
+}
+
+.btns {
+    margin-top: 2%;
+}
+
+.btns li{
+    display: inline;
+    padding-left: 2%;
+    transition: 1s;
+}
+
+.btns li a {
+    text-decoration: none;
+}
+
+.btns li:hover {
+    font-size: x-large;
+}
